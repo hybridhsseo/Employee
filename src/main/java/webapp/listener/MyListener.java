@@ -1,5 +1,7 @@
 package webapp.listener;
 
+import java.io.CharConversionException;
+
 import javax.servlet.ServletContext;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
@@ -54,7 +56,7 @@ public class MyListener implements ServletContextListener {
     	log.info("user=" + user);
     	log.info("password=" + password);
     	log.info("location=" + location);
-    	
+
     }
 	
 }
