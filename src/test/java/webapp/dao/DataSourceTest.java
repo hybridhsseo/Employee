@@ -73,6 +73,7 @@ public class DataSourceTest {
 		assertEquals(2, sum);
 		
 		log.info("sum=" + sum);
+		
 	}
 
 }
